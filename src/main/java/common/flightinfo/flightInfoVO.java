@@ -1,12 +1,21 @@
 package common.flightinfo;
 
 public class flightInfoVO {
+    //地飞机场
     private String depCode;
+
+    //抵达机场
     private String arrCode;
+
+    //起飞时间
     private String flightOffTime;
+
+    //航司
     private String airCompanyCode;
+
+    //航班号
     private String flightNo;
-    private String cabinsVO;
+
 
     public String getDepCode() {
         return depCode;
@@ -58,11 +67,4 @@ public class flightInfoVO {
 
     private String cabinInfo;
 
-    public String getCabinsVO() {
-        return cabinsVO;
-    }
-
-    public void setCabinsVO(String cabinsVO) {
-        this.cabinsVO = cabinsVO;
-    }
 }
