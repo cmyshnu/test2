@@ -1,11 +1,12 @@
 package common.flightinfo;
 
-public class FlightInfoVO {
+public class flightInfoVO {
     private String depCode;
     private String arrCode;
     private String flightOffTime;
     private String airCompanyCode;
     private String flightNo;
+    private String cabinsVO;
 
     public String getDepCode() {
         return depCode;
@@ -57,5 +58,11 @@ public class FlightInfoVO {
 
     private String cabinInfo;
 
+    public String getCabinsVO() {
+        return cabinsVO;
+    }
 
+    public void setCabinsVO(String cabinsVO) {
+        this.cabinsVO = cabinsVO;
+    }
 }

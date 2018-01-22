@@ -1,10 +1,11 @@
 package common.flightinfo;
 
-public class CabinsInfoVO {
+public class cabinsInfoVO {
     private String fPoid;
     private String mid;
     private String fProductCode;
     private String fat;
+    private String realRoomCode;
 
     public String getfPoid() {
         return fPoid;
@@ -36,5 +37,13 @@ public class CabinsInfoVO {
 
     public void setFat(String fat) {
         this.fat = fat;
+    }
+
+    public String getRealRoomCode() {
+        return realRoomCode;
+    }
+
+    public void setRealRoomCode(String realRoomCode) {
+        this.realRoomCode = realRoomCode;
     }
 }

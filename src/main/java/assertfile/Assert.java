@@ -1,4 +1,4 @@
-package assertFile;
+package assertfile;
 
 public class Assert {
 }
