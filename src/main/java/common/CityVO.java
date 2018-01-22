@@ -1,22 +1,22 @@
 package common;
 
 public class CityVO {
-    private String depcode;
-    private String arrcode;
+    private String depCode;
+    private String arrCode;
 
-    public String getDepcode() {
-        return depcode;
+    public String getDepCode() {
+        return depCode;
     }
 
-    public void setDepcode(String depcode) {
-        this.depcode = depcode;
+    public void setDepCode(String depCode) {
+        this.depCode = depCode;
     }
 
-    public String getArrcode() {
-        return arrcode;
+    public String getArrCode() {
+        return arrCode;
     }
 
-    public void setArrcode(String arrcode) {
-        this.arrcode = arrcode;
+    public void setArrCode(String arrCode) {
+        this.arrCode = arrCode;
     }
 }

@@ -1,6 +1,5 @@
-import Service.wx.GetUrl;
+import service.wx.GetUrl;
 
-import java.io.File;
 import java.io.IOException;
 
 public class UrlTest {

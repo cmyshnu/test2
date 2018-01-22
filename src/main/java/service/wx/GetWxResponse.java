@@ -1,12 +1,11 @@
-package Service.wx;
+package service.wx;
 
-import Data.GetAirLineExcelDate;
+import data.GetAirLineExcelDate;
 import common.DepDate;
 import common.HttpRequests;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 

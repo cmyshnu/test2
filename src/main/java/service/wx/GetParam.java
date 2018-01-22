@@ -1,4 +1,4 @@
-package Service.wx;
+package service.wx;
 
 public class GetParam {
 

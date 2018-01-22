@@ -1,5 +1,4 @@
-import Service.wx.GetWxResponse;
-import com.sun.org.apache.xerces.internal.xs.datatypes.ObjectList;
+import service.wx.GetWxResponse;
 
 import java.io.IOException;
 import java.util.ArrayList;

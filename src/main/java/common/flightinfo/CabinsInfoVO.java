@@ -1,17 +1,17 @@
-package common.FlightInfo;
+package common.flightinfo;
 
 public class CabinsInfoVO {
-    private String fpoid;
+    private String fPoid;
     private String mid;
     private String fProductCode;
     private String fat;
 
-    public String getFpoid() {
-        return fpoid;
+    public String getfPoid() {
+        return fPoid;
     }
 
-    public void setFpoid(String fpoid) {
-        this.fpoid = fpoid;
+    public void setfPoid(String fPoid) {
+        this.fPoid = fPoid;
     }
 
     public String getMid() {

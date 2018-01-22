@@ -1,8 +1,8 @@
 package common;
 
-import Service.wx.GetWxResponse;
-import common.FlightInfo.CabinsInfoVO;
-import common.FlightInfo.FlightInfoVO;
+import service.wx.GetWxResponse;
+import common.flightinfo.CabinsInfoVO;
+import common.flightinfo.FlightInfoVO;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 

@@ -1,8 +1,7 @@
-package Service.wx;
+package service.wx;
 
 import java.io.*;
 import java.util.Properties;
-import java.util.ResourceBundle;
 
 public class GetUrl {
     public String geturl(String channel) throws IOException {

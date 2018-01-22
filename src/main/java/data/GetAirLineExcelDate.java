@@ -1,4 +1,4 @@
-package Data;
+package data;
 
 import jxl.Cell;
 import jxl.Sheet;
