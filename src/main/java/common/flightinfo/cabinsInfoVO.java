@@ -1,10 +1,15 @@
 package common.flightinfo;
 
 public class cabinsInfoVO {
+    //政策ID
     private String fPoid;
+    //供应商ID
     private String mid;
+    //分众规则
     private String fProductCode;
+    //类型
     private String fat;
+    //舱位
     private String realRoomCode;
 
     public String getfPoid() {
