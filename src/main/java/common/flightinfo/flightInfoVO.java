@@ -10,6 +10,7 @@ public class flightInfoVO {
 
     private String airCompanyCode;
 
+    //航班号
     private String flightNo;
 
 
