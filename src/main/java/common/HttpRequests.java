@@ -9,7 +9,7 @@ import java.net.URL;
 import java.net.URLConnection;
 
 /**
- * 封装HTTP请求
+ * 封装HTTP请求111
  * @author fy39919
  */
 public class HttpRequests {
