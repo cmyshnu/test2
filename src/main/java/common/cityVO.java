@@ -4,7 +4,7 @@ package common;
  * 起抵机场
  * @author fy39919
  */
-public class CityVO {
+public class cityVO {
     private String depCode;
     private String arrCode;
 

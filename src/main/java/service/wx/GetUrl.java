@@ -1,5 +1,7 @@
 package service.wx;
 
+import org.apache.log4j.Logger;
+
 import java.io.*;
 import java.util.Properties;
 
@@ -15,12 +17,12 @@ public class GetUrl {
         try {
 
             in = new BufferedInputStream(new FileInputStream(file));
+
         } catch (FileNotFoundException e1) {
             e1.printStackTrace();
         }
         prop.load(in);
         String url = prop.getProperty(channel).trim();
-
         return url;
     }
 

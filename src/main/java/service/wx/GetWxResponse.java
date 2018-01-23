@@ -3,6 +3,7 @@ package service.wx;
 import data.GetAirLineExcelDate;
 import common.DepDate;
 import common.HttpRequests;
+import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -28,6 +29,7 @@ public class GetWxResponse {
         String filepath = "d:/airlines.xls";
         Map<String,String> map1;
         map1 = getAirLineExcelDate.getAirLine(filepath);
+
 
         for (Map.Entry<String,String> entry : map1.entrySet()){
             String param = getParam.getParam(entry.getKey(),entry.getValue(),depDate.getDate());
