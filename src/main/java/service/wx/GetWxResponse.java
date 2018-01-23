@@ -1,5 +1,7 @@
 package service.wx;
 
+import common.cityVO;
+import data.AirlineExcelData;
 import data.GetAirLineExcelDate;
 import common.DepDate;
 import common.HttpRequests;
@@ -16,27 +18,28 @@ import java.util.Map;
  */
 public class GetWxResponse {
     public List<Object> getresponse() throws IOException {
-        List<Object> list = new ArrayList<Object>();
+        List<Object> list1 = new ArrayList<Object>();
         HttpRequests http = new HttpRequests();
-
+        AirlineExcelData airlineExcelData = new AirlineExcelData();
         DepDate depDate = new DepDate();
         GetParam getParam = new GetParam();
         //从配置里获取接口地址
         GetUrl getUrl = new GetUrl();
         String url = getUrl.geturl("wx");
-
-        GetAirLineExcelDate getAirLineExcelDate = new GetAirLineExcelDate();
         String filepath = "d:/airlines.xls";
-        Map<String,String> map1;
-        map1 = getAirLineExcelDate.getAirLine(filepath);
 
+        List<cityVO> list ;
+        list = airlineExcelData.airLineInfo(filepath);
 
-        for (Map.Entry<String,String> entry : map1.entrySet()){
-            String param = getParam.getParam(entry.getKey(),entry.getValue(),depDate.getDate());
-            list.add(http.getRequests(url,param).toString());
+        for (int i =0; i<list.size();i++){
+            String arr = list.get(i).getArrCode();
+            String dep = list.get(i).getDepCode();
+            String param = getParam.getParam(arr,dep,depDate.getDate());
+            list1.add(http.getRequests(url,param).toString());
         }
 
-        return list;
+
+        return list1;
     }
 
 }
