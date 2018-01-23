@@ -1,5 +1,9 @@
 package common.flightinfo;
 
+/**
+ * 航班信息VO
+ * @author fy39919
+ */
 public class flightInfoVO {
 
     //起飞机场
@@ -67,5 +71,10 @@ public class flightInfoVO {
     }
 
     private String cabinInfo;
+
+    @Override
+    public String toString(){
+        return super.toString()+"{+depCode"+depCode+"arrCode"+arrCode+"flightOffTime"+flightOffTime+"airCompanyCode"+airCompanyCode+"flightNo"+flightNo+"}";
+    }
 
 }

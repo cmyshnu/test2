@@ -1,15 +1,33 @@
 package common.flightinfo;
 
+/**
+ * @author fy39919
+ */
 public class cabinsInfoVO {
-    //政策ID
+    /**
+   * 政策ID
+   *
+   **/
     private String fPoid;
-    //供应商ID
+    /**
+     * 供应商ID
+     *
+     **/
     private String mid;
-    //分众规则
+    /**
+     * 分众规则
+     *
+     **/
     private String fProductCode;
-    //类型
+    /**
+     * 类型
+     *
+     **/
     private String fat;
-    //舱位
+    /**
+     * 舱位
+     *
+     **/
     private String realRoomCode;
 
     public String getfPoid() {
@@ -51,4 +69,10 @@ public class cabinsInfoVO {
     public void setRealRoomCode(String realRoomCode) {
         this.realRoomCode = realRoomCode;
     }
+
+    @Override
+    public String toString(){
+        return super.toString()+"{+fPoid"+fPoid+"mid"+mid+"fProductCode"+fProductCode+"fat"+fat+"realRoomCode"+realRoomCode+"}";
+    }
+
 }

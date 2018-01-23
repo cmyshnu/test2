@@ -10,19 +10,18 @@ import net.sf.json.JSONObject;
 import java.io.IOException;
 import java.util.*;
 
+/**
+ * 解析JSON
+ * @author fy39919
+ */
 public class AnalyzeResponse {
     public Map<flightInfoVO, cabinsInfoVO> analyzeResponse(){
 
-        /**
-         *@Author:fy39919
-         *@Description:对response进行JSON处理，获取所需要的值
-         *@Date:Created in 16:45 2018/1/20
-         **/
         GetWxResponse getWxResponse = new GetWxResponse();
         List<Object> list = new ArrayList<Object>();
-        String hour = "";
+
+        //航班信息
         String FlightInfoSimpleList = null;
-        List list1 = null;
         Map<flightInfoVO, cabinsInfoVO> map = new IdentityHashMap<flightInfoVO, cabinsInfoVO>();
         try {
             list = getWxResponse.getresponse();
@@ -32,13 +31,13 @@ public class AnalyzeResponse {
             JSONObject json =  JSONObject.fromObject(response);
 
 
-
+                /* 舱位信息 */
             for(int i = 0;i<list.size();i++){
                 String response1 = list.get(i).toString();
                 JSONObject json1 =  JSONObject.fromObject(response1);
                 JSONArray flightinfoarr = json1.getJSONArray("FlightInfoSimpleList");
                 for(int k=0;k<flightinfoarr.size();k++){
-                    //flightinfo获取起抵机场,航司,航班号,起飞时间
+                    //fligthinfo获取起抵机场,航司,航班号,起飞时间
                     flightInfoVO flightInfoVO =new flightInfoVO();
 
                     JSONObject flightinforow = flightinfoarr.getJSONObject(k);

@@ -8,7 +8,16 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 
+/**
+ * 封装HTTP请求
+ * @author fy39919
+ */
 public class HttpRequests {
+    /**
+     * @param url
+     * @param param
+     * @return
+     */
     public String postRequests(String url,String param){
         PrintWriter out = null;
         String result = "";
@@ -66,7 +75,6 @@ public class HttpRequests {
 
     public String getRequests(String url,String param){
 
-        PrintWriter out = null;
         String result = "";
         BufferedReader in = null;
 

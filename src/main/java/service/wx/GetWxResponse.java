@@ -9,6 +9,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * 获取WX返回参数
+ * @author fy39919
+ */
 public class GetWxResponse {
     public List<Object> getresponse() throws IOException {
         List<Object> list = new ArrayList<Object>();
@@ -27,8 +31,6 @@ public class GetWxResponse {
 
         for (Map.Entry<String,String> entry : map1.entrySet()){
             String param = getParam.getParam(entry.getKey(),entry.getValue(),depDate.getDate());
-//            //url以及param
-//            System.out.println(url+"?"+param);
             list.add(http.getRequests(url,param).toString());
         }
 

@@ -3,6 +3,10 @@ package service.wx;
 import java.io.*;
 import java.util.Properties;
 
+/**
+ * 从配置获取URL
+ * @author fy39919
+ */
 public class GetUrl {
     public String geturl(String channel) throws IOException {
         Properties prop = new Properties();

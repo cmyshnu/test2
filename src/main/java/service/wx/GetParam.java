@@ -1,5 +1,9 @@
 package service.wx;
 
+/**
+ * 获取Param
+ * @author fy39919
+ */
 public class GetParam {
 
     public String getParam(String depcode,String arrcode,String depdate){
