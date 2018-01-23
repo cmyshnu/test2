@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="40b5d20a-408b-4b3a-bbc5-8a1ea6223f0d" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/common/cityVO.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/Assert/Assert.class" afterPath="" />
@@ -22,6 +23,14 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InterfaceAutomation.iml" afterPath="$PROJECT_DIR$/InterfaceAutomation.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/AnalyzeResponse.java" afterPath="$PROJECT_DIR$/src/main/java/common/AnalyzeResponse.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/url.properties" afterPath="$PROJECT_DIR$/src/main/java/common/url.properties" />
+=======
+    <list default="true" id="dc4334e3-b1c0-4ab8-9b90-0460675a373f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/common/AnalyzeResponse.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/assertfile/Assert.java" afterPath="$PROJECT_DIR$/src/main/java/assertfile/Assert.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/AnalyzeResponse.java" afterPath="$PROJECT_DIR$/src/main/java/common/AnalyzeResponse.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/common/NowTime.java" afterPath="$PROJECT_DIR$/src/main/java/common/NowTime.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Anatest.java" afterPath="$PROJECT_DIR$/src/test/java/Anatest.java" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,14 +44,24 @@
     <favorites_list name="Auto" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf>
       <file leaf-file-name="TouchFlightSearchValidate.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/assertfile/TouchFlightSearchValidate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
               <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="TestEarliestFlight.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/wx/TestEarliestFlight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#744#752#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,6 +70,7 @@
       <file leaf-file-name="GetTFlightSearchResponse.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/wx/GetTFlightSearchResponse.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="164">
               <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
               <folding>
@@ -85,11 +105,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
               <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+=======
+            <state relative-caret-position="184">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="NearCitys.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JavaBean/NearCitys.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,10 +124,19 @@
                 <element signature="e#489#490#0" expanded="true" />
                 <element signature="e#531#532#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="NowTime.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/common/NowTime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+              <folding />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="FlightInfoSimpleList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/JavaBean/FlightInfoSimpleList.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -116,6 +150,17 @@
                 <marker date="1516703196617" expanded="false" signature="2128:2138" ph=" }" />
                 <marker date="1516703196617" expanded="false" signature="2664:2679" ph=" { " />
                 <marker date="1516703196617" expanded="false" signature="2698:2708" ph=" }" />
+=======
+      <file leaf-file-name="AnalyzeResponse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/common/AnalyzeResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="81" column="49" lean-forward="true" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#466#474#0" expanded="true" />
+                <element signature="e#559#587#0" expanded="true" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
               </folding>
             </state>
           </provider>
@@ -142,9 +187,13 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
       <find>flyOffTime</find>
       <find>Date</find>
       <find>NearCitys</find>
+=======
+      <find>debug</find>
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -158,6 +207,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/common/HttpRequests.java" />
         <option value="$PROJECT_DIR$/src/main/java/common/AnalyzeResponse.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -175,6 +225,53 @@
         <option value="$PROJECT_DIR$/src/main/java/assertfile/TFlightSearchValidate.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/wx/GetTFlightSearchResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/assertfile/TouchFlightSearchValidate.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/Date/WeiXinExcel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Date/GetExcelDate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Data/GetExcelDate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/url.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/app/GetUrl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/app/GetResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/wx/GetUrl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UrlTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/wx/GetResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/CityVo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/wx/GetParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Data/GetAirLineExcelDate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/wx/GetWxResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/AirlineInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/FlightInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/Cabins.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/FlightInfo/FlightInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/FlightInfo/CabinsInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/FlightInfo/FlightInfoVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/FlightInfo/CabinsInfoVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/flightinfo/CabinsInfoVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/flightinfo/flightInfoVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/CityVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/DepDate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/wx/GetParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/flightinfo/cabinsInfoVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/cityVO.java" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/common/HttpRequests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/wx/GetUrl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/data/AirlineExcelData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GetExcelTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/wx/GetWxResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/flightinfo/cityVO.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/TestNowTime.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestString.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Anatest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/AnalyzeResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/common/NowTime.java" />
+        <option value="$PROJECT_DIR$/src/main/java/assertfile/Assert.java" />
+        <option value="$PROJECT_DIR$/src/main/java/assertfile/TestEarliestFlight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/wx/TestEarliestFlight.java" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
       </list>
     </option>
   </component>
@@ -184,6 +281,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+<<<<<<< HEAD
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -196,6 +294,13 @@
     <option name="y" value="199" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-30" />
+    <option name="y" value="170" />
+    <option name="width" value="1366" />
+    <option name="height" value="728" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -239,6 +344,7 @@
               <item name="Auto" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
             </path>
             <path>
               <item name="Auto" type="b2602c69:ProjectViewProjectNode" />
@@ -246,6 +352,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InterfaceAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterfaceAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
             </path>
             <path>
               <item name="Auto" type="b2602c69:ProjectViewProjectNode" />
@@ -261,7 +378,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="exceldata" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Auto" type="b2602c69:ProjectViewProjectNode" />
@@ -280,6 +397,7 @@
               <item name="wx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
+<<<<<<< HEAD
               <item name="Auto" type="b2602c69:ProjectViewProjectNode" />
               <item name="Auto" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
@@ -287,6 +405,9 @@
             </path>
             <path>
               <item name="Auto" type="b2602c69:ProjectViewProjectNode" />
+=======
+              <item name="InterfaceAutomation" type="b2602c69:ProjectViewProjectNode" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -306,7 +427,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="D:\MyConfiguration\CMY48519\Demo\new\Auto\src\dataTemples" />
+=======
+      <recent name="D:\IdeaWorkSpace\InterfaceAutomation\jars" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
     </key>
   </component>
   <component name="RunDashboard">
@@ -321,6 +446,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="TestNG.TouchFlightSearchValidate">
     <configuration name="TFlightSearchValidate (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -330,6 +456,15 @@
         </pattern>
       </extension>
       <module name="InterfaceAutomation" />
+=======
+  <component name="RunManager" selected="TestNG.TestEarliestFlight.testWxFlightOffTime">
+    <configuration name="Anatest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Anatest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -354,6 +489,7 @@
       <properties />
       <listeners />
     </configuration>
+<<<<<<< HEAD
     <configuration name="TFlightSearchValidate.ValidateBaseInfo (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -387,6 +523,9 @@
       <listeners />
     </configuration>
     <configuration name="TFlightSearchValidate.ValidateBaseInfo" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="TestEarliestFlight.testWxFlightOffTime" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="assertfile.*" />
@@ -394,6 +533,39 @@
         </pattern>
       </extension>
       <module name="InterfaceAutomation" />
+<<<<<<< HEAD
+=======
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="assertfile" />
+      <option name="MAIN_CLASS_NAME" value="service.wx.TestEarliestFlight" />
+      <option name="METHOD_NAME" value="testWxFlightOffTime" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TestNowTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="TestNowTime" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -418,6 +590,7 @@
       <properties />
       <listeners />
     </configuration>
+<<<<<<< HEAD
     <configuration name="TouchFlightSearchValidate" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -426,6 +599,14 @@
         </pattern>
       </extension>
       <module name="InterfaceAutomation" />
+=======
+    <configuration name="TestString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="TestString" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -564,6 +745,7 @@
       <listeners />
     </configuration>
     <list size="5">
+<<<<<<< HEAD
       <item index="0" class="java.lang.String" itemvalue="TestNG.TFlightSearchValidate.ValidateBaseInfo" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.TFlightSearchValidate (2)" />
       <item index="2" class="java.lang.String" itemvalue="TestNG.TFlightSearchValidate.ValidateBaseInfo (1)" />
@@ -577,6 +759,21 @@
         <item index="2" class="java.lang.String" itemvalue="TestNG.TFlightSearchValidate.ValidateBaseInfo" />
         <item index="3" class="java.lang.String" itemvalue="TestNG.TFlightSearchValidate.ValidateBaseInfo (1)" />
         <item index="4" class="java.lang.String" itemvalue="TestNG.TFlightSearchValidate (2)" />
+=======
+      <item index="0" class="java.lang.String" itemvalue="Application.test" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TestNowTime" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.TestEarliestFlight.testWxFlightOffTime" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Anatest" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TestString" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.TestEarliestFlight.testWxFlightOffTime" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Anatest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestString" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TestNowTime" />
+        <item index="4" class="java.lang.String" itemvalue="Application.test" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
       </list>
     </recent_temporary>
   </component>
@@ -589,12 +786,23 @@
       <created>1516674806673</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1516674806673</updated>
       <workItem from="1516674808317" duration="29346000" />
+=======
+      <updated>1516343743390</updated>
+      <workItem from="1516343748337" duration="15590000" />
+      <workItem from="1516527286117" duration="6437000" />
+      <workItem from="1516589586019" duration="3019000" />
+      <workItem from="1516604855102" duration="2341000" />
+      <workItem from="1516607338939" duration="46000" />
+      <workItem from="1516607479182" duration="22883000" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
     </task>
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="TFlightSearchValidate_ValidateBaseInfo - 2018.01.23 at 19h 05m 06s.xml">
       <configuration name="TFlightSearchValidate.ValidateBaseInfo" configurationId="TestNG" />
     </history-entry>
@@ -631,10 +839,49 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+=======
+    <history-entry file="Assert_testWxFlightOffTime - 2018.01.23 at 17h 39m 10s.xml">
+      <configuration name="Assert.testWxFlightOffTime" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Assert_testWxFlightOffTime - 2018.01.23 at 17h 40m 42s.xml">
+      <configuration name="Assert.testWxFlightOffTime" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Assert_testWxFlightOffTime - 2018.01.23 at 17h 45m 45s.xml">
+      <configuration name="Assert.testWxFlightOffTime" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Assert_testWxFlightOffTime - 2018.01.23 at 17h 46m 34s.xml">
+      <configuration name="Assert.testWxFlightOffTime" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Assert_testWxFlightOffTime - 2018.01.23 at 17h 46m 52s.xml">
+      <configuration name="Assert.testWxFlightOffTime" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Assert_testWxFlightOffTime - 2018.01.23 at 17h 47m 38s.xml">
+      <configuration name="Assert.testWxFlightOffTime" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Assert_testWxFlightOffTime - 2018.01.23 at 17h 48m 08s.xml">
+      <configuration name="Assert.testWxFlightOffTime" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Assert_testWxFlightOffTime - 2018.01.23 at 17h 48m 27s.xml">
+      <configuration name="Assert.testWxFlightOffTime" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Assert_testWxFlightOffTime - 2018.01.23 at 17h 48m 53s.xml">
+      <configuration name="Assert.testWxFlightOffTime" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Assert_testWxFlightOffTime - 2018.01.23 at 17h 49m 11s.xml">
+      <configuration name="Assert.testWxFlightOffTime" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="50316000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2156013" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -655,12 +902,68 @@
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5097561" order="-1" side_tool="true" content_ui="tabs" />
+=======
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3257329" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43322477" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26096824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3110368" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+=======
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3110368" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3257329" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43322477" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26096824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -701,6 +1004,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+<<<<<<< HEAD
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/JavaBean/NearCitys.java</url>
@@ -710,10 +1014,14 @@
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="3" />
+=======
+      <option name="time" value="11" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/assertfile/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -731,6 +1039,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/flightinfo/cityVO.java">
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -740,9 +1051,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/UrlTest.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="209">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
+=======
+        <state relative-caret-position="322">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
         </state>
       </provider>
     </entry>
@@ -751,7 +1070,12 @@
         <state relative-caret-position="228">
           <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
           <folding>
+<<<<<<< HEAD
             <element signature="imports" expanded="false" />
+=======
+            <element signature="e#413#414#0" expanded="false" />
+            <element signature="e#451#452#0" expanded="false" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
           </folding>
         </state>
       </provider>
@@ -772,6 +1096,7 @@
           <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#466#474#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -784,7 +1109,11 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/common/cityVO.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/flightinfo/cityVO.java">
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
@@ -792,19 +1121,66 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/common/flightinfo/flightInfoVO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-133">
           <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="26" selection-end-column="5" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/flightinfo/flightInfoVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="e#413#414#0" expanded="false" />
+            <element signature="e#451#452#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/wx/GetWxResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/DepDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/data/GetAirLineExcelDate.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="316">
           <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
           <folding />
+=======
+        <state relative-caret-position="1518">
+          <caret line="74" column="5" lean-forward="true" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#466#474#0" expanded="true" />
+          </folding>
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
         </state>
       </provider>
     </entry>
@@ -829,16 +1205,25 @@
         <state relative-caret-position="342">
           <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/common/DepDate.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="152">
           <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="20" />
           <folding />
+=======
+        <state relative-caret-position="184">
+          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#413#414#0" expanded="false" />
+            <element signature="e#451#452#0" expanded="false" />
+          </folding>
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
         </state>
       </provider>
     </entry>
@@ -872,7 +1257,11 @@
           <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+<<<<<<< HEAD
             <element signature="e#511#519#0" expanded="true" />
+=======
+            <element signature="e#466#474#0" expanded="true" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
           </folding>
         </state>
       </provider>
@@ -890,19 +1279,28 @@
         <state relative-caret-position="133">
           <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/common/StringtoJson.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/Date/WeiXinExcel.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="768" column="63" lean-forward="true" selection-start-line="768" selection-start-column="63" selection-end-line="768" selection-end-column="63" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_31/src.zip!/java/util/Date.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -915,18 +1313,88 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
           <caret line="63" column="24" lean-forward="true" selection-start-line="63" selection-start-column="24" selection-end-line="63" selection-end-column="24" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/UrlTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/url.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/HttpRequests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-767">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1516688991118" expanded="true" signature="290:331" ph="/**...*/" />
+            <marker date="1516688991118" expanded="true" signature="364:428" ph="/**...*/" />
+            <marker date="1516688991118" expanded="true" signature="484:2071" ph="{...}" />
+            <marker date="1516688991118" expanded="true" signature="2128:3194" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/wx/GetUrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/wx/GetParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaBean/HourLowestPrice.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/flightinfo/flightInfoVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaBean/FlightInfoSimpleList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -939,10 +1407,19 @@
             <marker date="1516703196617" expanded="false" signature="2128:2138" ph=" }" />
             <marker date="1516703196617" expanded="false" signature="2664:2679" ph=" { " />
             <marker date="1516703196617" expanded="false" signature="2698:2708" ph=" }" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/GetExcelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="e#303#311#0" expanded="true" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaBean/NearCitys.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -958,10 +1435,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/flightinfo/cityVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/flightinfo/cabinsInfoVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaBean/TouchFlightSearch.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -976,44 +1468,161 @@
             <element signature="e#3264#3265#0" expanded="true" />
             <element signature="e#3316#3317#0" expanded="true" />
             <element signature="e#3355#3356#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/exceldata/AirlineExcelData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#452#460#0" expanded="true" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/assertfile/TFlightSearchValidate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="66" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/exceldata/GetAirLineExcelDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="21" column="35" lean-forward="false" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="e#569#577#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/wx/GetWxResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#390#398#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+=======
+    <entry file="file://$PROJECT_DIR$/InterfaceAutomation.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="49" column="37" lean-forward="true" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        <state relative-caret-position="282">
+          <caret line="70" column="36" lean-forward="true" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/service/wx/GetTFlightSearchResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="35" column="44" lean-forward="false" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestNowTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/alibaba/fastjson/1.2.7/fastjson-1.2.7.jar!/com/alibaba/fastjson/JSONArray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="23" column="36" lean-forward="true" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/alibaba/fastjson/1.2.7/fastjson-1.2.7.jar!/com/alibaba/fastjson/JSONObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-284">
+          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Anatest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/DepDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/AnalyzeResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="81" column="49" lean-forward="true" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#466#474#0" expanded="true" />
+            <element signature="e#559#587#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/assertfile/TouchFlightSearchValidate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="8" lean-forward="false" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/common/NowTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/wx/TestEarliestFlight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#744#752#0" expanded="true" />
+>>>>>>> 456a71aa4d0f49040be09c4b9ad06afb662671fc
           </folding>
         </state>
       </provider>

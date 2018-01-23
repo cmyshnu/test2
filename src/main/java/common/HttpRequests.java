@@ -8,6 +8,9 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 
+import org.apache.log4j.*;
+import org.apache.log4j.Logger;
+
 /**
  * 封装HTTP请求111
  * @author fy39919

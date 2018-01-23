@@ -1,18 +1,19 @@
-import data.GetAirLineExcelDate;
+import common.flightinfo.cityVO;
+import exceldata.AirlineExcelData;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
 
 public class GetExcelTest {
     public static void main(String[] args) {
-
-        GetAirLineExcelDate getAirLineExcelDate = new GetAirLineExcelDate();
-
-        Map<String,String> map = new HashMap<String,String>();
-
-        map = getAirLineExcelDate.getAirLine("d:/airlines.xls");
-        for (Map.Entry<String,String> entry : map.entrySet()){
-            System.out.println(entry.getKey()+" "+entry.getValue());
-            }
+        AirlineExcelData airlineExcelData = new AirlineExcelData();
+        List<cityVO> list = new ArrayList<cityVO>();
+        list = airlineExcelData.airLineInfo("d:/airlines.xls");
+        for (int i =0; i<list.size();i++){
+            String arr = list.get(i).getArrCode();
+            String dep = list.get(i).getDepCode();
+            System.out.println(dep+"  "+arr);
         }
+
     }
+}

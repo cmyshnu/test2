@@ -9,9 +9,7 @@ import service.wx.GetTFlightSearchResponse;
 
 import java.util.HashMap;
 
-public class TouchFlightSearchValid
-
-        ate {
+public class TouchFlightSearchValidate {
     GetTFlightSearchResponse getTFlightSearchResponse;
     String TFlightSearchResponseStr ;
     @Test(dataProvider="testTFlightSearch",dataProviderClass = DataProviderSet.class)

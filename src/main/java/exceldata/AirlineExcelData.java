@@ -1,5 +1,6 @@
-package data;
+package exceldata;
 
+import common.flightinfo.cityVO;
 import jxl.Cell;
 import jxl.Sheet;
 import jxl.Workbook;
@@ -9,20 +10,14 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
+public class AirlineExcelData {
 
-public class GetAirLineExcelDate {
-
-/**
-    *@Author:fy39919
-    *@Description:获取excel数据
-    *@Date:Created in 13:55 2018/1/20
- **/
-    public Map<String ,String > getAirLine(String filepath){
-        Map<String, String> map = new IdentityHashMap<String, String>();
-
-        List<String> list = new ArrayList<String>();
+    public List<cityVO> airLineInfo(String filepath){
+        List<cityVO> list = new ArrayList<cityVO>();
+        cityVO city =new cityVO();
         jxl.Workbook readwb = null;
         try{
             InputStream inputStream = new FileInputStream(filepath);
@@ -39,7 +34,9 @@ public class GetAirLineExcelDate {
                 Cell cell2 = sheet.getCell(1,i);
                 String getCell1 = new String(cell1.getContents().toString());
                 String getCell2 = new String(cell2.getContents().toString());
-                map.put(getCell1,getCell2);
+                city.setArrCode(getCell2);
+                city.setDepCode(getCell1);
+                list.add(city);
             }
 
 
@@ -53,8 +50,8 @@ public class GetAirLineExcelDate {
         }
 
 
-        return map;
-    }
 
+        return list;
+    }
 
 }
