@@ -12,7 +12,7 @@ import org.apache.log4j.*;
 import org.apache.log4j.Logger;
 
 /**
- * 封装HTTP请求
+ * 封装HTTP请求111
  * @author fy39919
  */
 public class HttpRequests {
