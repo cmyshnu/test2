@@ -1,10 +1,10 @@
 package common;
 
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
 import service.wx.GetWxResponse;
 import common.flightinfo.cabinsInfoVO;
 import common.flightinfo.flightInfoVO;
-import net.sf.json.JSONArray;
-import net.sf.json.JSONObject;
 
 
 import java.io.IOException;
@@ -28,13 +28,14 @@ public class AnalyzeResponse {
             //获取HTTP请求返回值
             String response = list.get(0).toString();
             System.out.println(response);
-            JSONObject json =  JSONObject.fromObject(response);
-
-
+            //              // 利用阿狸的json包  JSONObject json =  JSONObject.fromObject(response);
+            JSONObject json =  JSONObject.parseObject(response);
                 /* 舱位信息 */
             for(int i = 0;i<list.size();i++){
                 String response1 = list.get(i).toString();
-                JSONObject json1 =  JSONObject.fromObject(response1);
+                // 利用阿狸的json包      JSONObject json1 =  JSONObject.fromObject();
+                JSONObject json1 =  JSONObject.parseObject(response1);
+
                 JSONArray flightinfoarr = json1.getJSONArray("FlightInfoSimpleList");
                 for(int k=0;k<flightinfoarr.size();k++){
                     //fligthinfo获取起抵机场,航司,航班号,起飞时间
