@@ -1,11 +1,8 @@
-import common.cityVO;
+import common.flightinfo.cityVO;
 import data.AirlineExcelData;
-import data.GetAirLineExcelDate;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 public class GetExcelTest {
     public static void main(String[] args) {

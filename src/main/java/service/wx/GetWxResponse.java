@@ -1,16 +1,13 @@
 package service.wx;
 
-import common.cityVO;
+import common.flightinfo.cityVO;
 import data.AirlineExcelData;
-import data.GetAirLineExcelDate;
 import common.DepDate;
 import common.HttpRequests;
-import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 /**
  * 获取WX返回参数

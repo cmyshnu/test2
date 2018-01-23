@@ -1,6 +1,6 @@
 package data;
 
-import common.cityVO;
+import common.flightinfo.cityVO;
 import jxl.Cell;
 import jxl.Sheet;
 import jxl.Workbook;

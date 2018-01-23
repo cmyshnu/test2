@@ -1,14 +1,15 @@
 package common;
 
+import org.json.JSONArray;
 import service.wx.GetWxResponse;
 import common.flightinfo.cabinsInfoVO;
 import common.flightinfo.flightInfoVO;
-import net.sf.json.JSONArray;
-import net.sf.json.JSONObject;
+import org.json.JSONObject;
 
 
 import java.io.IOException;
 import java.util.*;
+
 
 /**
  * 解析JSON
@@ -21,44 +22,46 @@ public class AnalyzeResponse {
         List<Object> list = new ArrayList<Object>();
 
         //航班信息
-        String FlightInfoSimpleList = null;
+        String flightInfoSimpleList = null;
         Map<flightInfoVO, cabinsInfoVO> map = new IdentityHashMap<flightInfoVO, cabinsInfoVO>();
         try {
             list = getWxResponse.getresponse();
-            //获取HTTP请求返回值
-            String response = list.get(0).toString();
-            System.out.println(response);
-            JSONObject json =  JSONObject.fromObject(response);
-
 
                 /* 舱位信息 */
             for(int i = 0;i<list.size();i++){
-                String response1 = list.get(i).toString();
-                JSONObject json1 =  JSONObject.fromObject(response1);
-                JSONArray flightinfoarr = json1.getJSONArray("FlightInfoSimpleList");
-                for(int k=0;k<flightinfoarr.size();k++){
-                    //fligthinfo获取起抵机场,航司,航班号,起飞时间
-                    flightInfoVO flightInfoVO =new flightInfoVO();
+                String response = list.get(i).toString();
+                JSONObject flightJson = new JSONObject(response);
 
-                    JSONObject flightinforow = flightinfoarr.getJSONObject(k);
+                JSONArray flightInfoArr = flightJson.getJSONArray("FlightInfoSimpleList");
+
+                for(int k=0;k<flightInfoArr.length();k++){
+
+                    //flgths获取起抵机场,航司,航班号,起飞时间
+                    flightInfoVO flightInfoVO =new flightInfoVO();
+                    JSONObject flightinforow = flightInfoArr.getJSONObject(k);
                     String originAirportCode = new String(flightinforow.get("originAirportCode").toString());
                     String arriveAirportCode = new String(flightinforow.get("arriveAirportCode").toString());
                     String airCompanyCode = new String(flightinforow.get("airCompanyCode").toString());
                     String flightNo = new String(flightinforow.get("flightNo").toString());
                     String flyOffOnlyTime = new String(flightinforow.get("flyOffOnlyTime").toString());
-
+                    System.out.println(originAirportCode+" "+arriveAirportCode);
                     flightInfoVO.setArrCode(arriveAirportCode);
                     flightInfoVO.setDepCode(originAirportCode);
                     flightInfoVO.setAirCompanyCode(airCompanyCode);
                     flightInfoVO.setFlightNo(flightNo);
                     flightInfoVO.setFlightOffTime(flyOffOnlyTime);
 
-                    JSONArray cabins = json1.getJSONArray(String.valueOf(flightinforow));
+                    String cabins = flightinforow.get("cabins").toString();
 
-                    for(int m = 0;m<cabins.size();m++){
+                    System.out.println(cabins);
+                    JSONObject cabinsJson = new JSONObject(flightinforow.get("cabins").toString());
+                    JSONArray cabinsArr = cabinsJson.getJSONArray("cabins");
+
+                    for(int m = 0;m<cabinsArr.length();m++){
 
                         //cabins获取舱位,分众ID,供应商ID,政策ID,产品类型
-                        JSONObject cabinrow = cabins.getJSONObject(m);
+                        JSONObject cabinrow = cabinsArr.getJSONObject(m);
+
                         cabinsInfoVO cabinsInfoVO = new cabinsInfoVO();
 
                         String realRoomCode = new String(cabinrow.get("realRoomCode").toString());

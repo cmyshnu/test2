@@ -5,6 +5,7 @@ import java.util.Map;
 public class Anatest {
     public static void main(String[] args) {
         AnalyzeResponse analyzeResponse = new AnalyzeResponse();
+        analyzeResponse.analyzeResponse();
 
 //        List a = analyzeResponse.analyzeResponse();
 //        for(int i = 0;i<a.size();i++){

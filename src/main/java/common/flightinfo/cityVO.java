@@ -1,4 +1,4 @@
-package common;
+package common.flightinfo;
 
 /**
  * 起抵机场
