@@ -1,5 +1,5 @@
 import common.flightinfo.cityVO;
-import data.AirlineExcelData;
+import exceldata.AirlineExcelData;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,7 +1,7 @@
 package service.wx;
 
 import common.flightinfo.cityVO;
-import data.AirlineExcelData;
+import exceldata.AirlineExcelData;
 import common.DepDate;
 import common.HttpRequests;
 

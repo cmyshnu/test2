@@ -1,4 +1,4 @@
-package data;
+package exceldata;
 
 import common.flightinfo.cityVO;
 import jxl.Cell;

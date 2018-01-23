@@ -1,4 +1,4 @@
-package assertfile;
+package service.wx;
 
 import common.AnalyzeResponse;
 import common.NowTime;
@@ -14,7 +14,7 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-public class Assert {
+public class TestEarliestFlight {
 
     @Test
     public void testWxFlightOffTime() throws ParseException {
